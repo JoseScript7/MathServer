@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Power of a Lamp Filament in an Incandescent Bulb</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style type="text/css">
+body {
+    background-color: lavender;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    border: solid 2px rgb(59, 8, 116);
+    width: 500px;
+    min-height: 300px;
+    font-size: 20px;
+    background-color: rgb(11, 212, 185);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.formelt {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+h1, h3 {
+    color: black;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid rgb(59, 8, 116);
+    border-radius: 5px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(59, 8, 116);
+    border: 2px solid rgb(59, 8, 116);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    background-color: rgb(59, 8, 116);
+    color: white;
+}
+</style>
+</head>
+<body>
+<div class="box">
+    <h1>Power of a Lamp Filament in an Incandescent Bulb</h1>
+    <h3>A. Ranen Joseph Solomon - 24006171</h3>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="formelt">
+            <label for="intensity">Intensity:</label>
+            <input type="text" id="intensity" name="intensity" value="{{ i }}"> m
+        </div>
+        <div class="formelt">
+            <label for="resistance">Resistance:</label>
+            <input type="text" id="resistance" name="resistance" value="{{ r }}"> m
+        </div>
+        <div class="formelt">
+            <input type="submit" value="Calculate">
+        </div>
+        <div class="formelt">
+            <label for="power">Power:</label>
+            <input type="text" id="power" readonly value="{{ power }}"> m<sup>2</sup>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+
