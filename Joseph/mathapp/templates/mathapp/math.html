@@ -65,18 +65,18 @@ input[type="submit"]:hover {
         {% csrf_token %}
         <div class="formelt">
             <label for="intensity">Intensity:</label>
-            <input type="text" id="intensity" name="intensity" value="{{ i }}"> m
+            <input type="text" id="intensity" name="intensity" value="{{ i }}"> 
         </div>
         <div class="formelt">
             <label for="resistance">Resistance:</label>
-            <input type="text" id="resistance" name="resistance" value="{{ r }}"> m
+            <input type="text" id="resistance" name="resistance" value="{{ r }}"> 
         </div>
         <div class="formelt">
             <input type="submit" value="Calculate">
         </div>
         <div class="formelt">
             <label for="power">Power:</label>
-            <input type="text" id="power" readonly value="{{ power }}"> m<sup>2</sup>
+            <input type="text" id="power" readonly value="{{ power }}"> watt
         </div>
     </form>
 </div>

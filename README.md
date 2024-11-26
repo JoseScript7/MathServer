@@ -159,7 +159,7 @@ def power(request):
 ![alt text](image.png)
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2024-11-26 134242.png>)
+![alt text](image-1.png)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
