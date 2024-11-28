@@ -156,7 +156,8 @@ def power(request):
 
 
 ## SERVER SIDE PROCESSING:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/965fd074-b05b-4054-8465-bc0deaca192f)
+
 
 ## HOMEPAGE:
 ![alt text](image-1.png)
