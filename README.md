@@ -156,7 +156,7 @@ def power(request):
 
 
 ## SERVER SIDE PROCESSING:
-![image](https://github.com/user-attachments/assets/965fd074-b05b-4054-8465-bc0deaca192f)
+![image](https://github.com/user-attachments/assets/c5f7e6c3-24b8-4bca-8137-8948172a0cf2)
 
 
 ## HOMEPAGE:
